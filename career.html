@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>My Website</title>
+  </head>
+  <body class="min-h-screen bg-[#161616] text-[#5C5C5C]">
+    <!-- Navigation -->
+    <nav class="hidden md:block">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center py-6">
+          <a
+            href="index.html"
+            class="text-[#F5F5F5] text-3xl font-bold tracking-wide"
+          >
+            My Portfolio
+          </a>
+          <ul class="flex space-x-6">
+            <li>
+              <a
+                href="./profile.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Profile
+              </a>
+            </li>
+            <li>
+              <a
+                href="./gallery.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                href="./gallery.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Career Goals
+              </a>
+            </li>
+            <li>
+              <a
+                href="./project.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="./skills.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Skills & Interest
+              </a>
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="container mx-auto py-12 space-y-10 flex flex-col items-center justify-center my-10"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-[#1E1E1E] p-8 rounded-lg shadow-lg">
+          <div class="flex items-center space-x-4 mb-6">
+            <i class="fas fa-graduation-cap text-[#F5F5F5] text-4xl"></i>
+            <h1 class="text-4xl text-[#F5F5F5] font-bold">
+              Short Term Career Goals
+            </h1>
+          </div>
+          <ul class="list-disc list-inside text-[#B5B5B5] space-y-2">
+            <li>Graduate with good grades</li>
+            <li>Get a job in a good company</li>
+            <li>Learn new technologies</li>
+            <li>
+              Get admission in a good foreign university for higher studies
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-[#1E1E1E] p-8 rounded-lg shadow-lg">
+          <div class="flex items-center space-x-4 mb-6">
+            <i class="fas fa-briefcase text-[#F5F5F5] text-4xl"></i>
+            <h1 class="text-4xl text-[#F5F5F5] font-bold">
+              Long Term Career Goals
+            </h1>
+          </div>
+          <ul class="list-disc list-inside text-[#B5B5B5] space-y-2">
+            <li>Get a job in a top MNC</li>
+            <li>Start my own company</li>
+            <li>Make a significant contribution to society</li>
+            <li>Make lasting meaningful connections with people</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="bg-[#1E1E1E] p-8 rounded-lg shadow-lg flex flex-col items-center justify-center w-full"
+      >
+        <div class="flex items-center space-x-4 mb-6">
+          <i class="fas fa-bullhorn text-yellow-500 text-4xl"></i>
+          <h1 class="text-4xl text-yellow-500 font-bold">Call to Action</h1>
+        </div>
+        <p class="text-[#B5B5B5] text-xl">
+          You didn't come this far to only come this far. Keep pushing.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

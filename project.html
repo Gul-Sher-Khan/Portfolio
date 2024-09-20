@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Projects</title>
+  </head>
+  <body class="min-h-screen bg-[#161616] text-[#5C5C5C]">
+    <!-- Navigation -->
+    <nav class="hidden md:block">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center py-6">
+          <a
+            href="index.html"
+            class="text-[#F5F5F5] text-3xl font-bold tracking-wide"
+          >
+            My Portfolio
+          </a>
+          <ul class="flex space-x-6">
+            <li>
+              <a
+                href="./profile.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Profile
+              </a>
+            </li>
+            <li>
+              <a
+                href="./gallery.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                href="./career.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Career Goals
+              </a>
+            </li>
+            <li>
+              <a
+                href="./project.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="./skills.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Skills & Interest
+              </a>
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container mx-auto py-12">
+      <h1 class="text-4xl text-center text-[#F5F5F5] font-semibold mb-10">
+        My Projects
+      </h1>
+
+      <!-- Project Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Weather App -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/weather.png"
+            alt="Weather App"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Weather App</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            Weather app built using OpenWeather API, showing current weather and
+            a 7-day forecast for any city.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Weather-App"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- Hangman Game -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/hangman.png"
+            alt="Hangman Game"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Hangman Game</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A classic Hangman game made with React, testing your vocabulary with
+            a sleek interface.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Hangman"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- PassGen Pro -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/passgen.jpeg"
+            alt="Password Generator"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">PassGen Pro</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A customizable password generator made using React and Tailwind.
+            Generate secure passwords with ease.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/PassGen-Pro"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- Pizza Delivery App -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/pizza.png"
+            alt="Pizza Delivery App"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Pizza Delivery App</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A full-fledged pizza delivery website built using React, including
+            menu, contact, and booking functionalities.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Pizza-E-Commerce-Website"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- Sales Table UI -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/table.jpeg"
+            alt="Sales Table UI"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Sales Table UI</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A sales table UI built in React using Tailwind, providing a
+            beautifully styled data display.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Table-UI"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- Wordle Clone -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/wordle.png"
+            alt="Wordle Clone"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Wordle Clone</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A clone of the popular NYT game, Wordle, built in React. Challenge
+            yourself with daily word puzzles!
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Wordle-Clone"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- Cinemate -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/cinema.png"
+            alt="Cinemate App"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Cinemate</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A cinema booking app made using React and Spring Boot, with MySQL
+            database integration.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Cinemate"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <!-- Calculator App -->
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/calc.png"
+            alt="Calculator App"
+            class="w-full h-48 object-cover rounded-t-xl"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-6">Calculator App</h3>
+          <p class="text-[#5C5C5C] mt-4">
+            A simple calculator app built using HTML, CSS, and JavaScript with a
+            sleek, modern UI.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Calculator"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/algo.png"
+            alt="Algo Visualizer"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-4">Algo Visualizer</h3>
+          <p class="text-[#5C5C5C] mt-2">
+            An algorithm visualizer built using React, allowing users to see how
+            famous sorting algorithms work in real-time.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/Algo-Visualizer"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+        <div
+          class="bg-[#1A1A1A] p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105"
+        >
+          <img
+            src="./assets/images/ecommerce.png"
+            alt="Clothes E-Commerce"
+            class="w-full h-48 object-cover rounded-md"
+          />
+          <h3 class="text-2xl text-[#F5F5F5] mt-4">Clothes E-Commerce</h3>
+          <p class="text-[#5C5C5C] mt-2">
+            A clothes e-commerce app built in React, featuring a product grid
+            and cart functionality for seamless shopping.
+          </p>
+          <a
+            href="https://github.com/Gul-Sher-Khan/E-Commerce-App"
+            target="_blank"
+            class="inline-flex items-center space-x-3 bg-[#1E3A8A] text-white px-5 py-2 rounded-full mt-4 hover:bg-[#3B82F6] transition-transform duration-300 transform hover:scale-105"
+          >
+            <i class="fab fa-github text-xl"></i>
+            <span class="font-semibold">View GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

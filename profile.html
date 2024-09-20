@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <title>Personal Profile</title>
+  </head>
+  <body class="min-h-screen bg-[#161616] text-[#5C5C5C]">
+    <!-- Navigation -->
+    <nav class="hidden md:block">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center py-6">
+          <a
+            href="index.html"
+            class="text-[#F5F5F5] text-3xl font-bold tracking-wide"
+          >
+            My Portfolio
+          </a>
+          <ul class="flex space-x-6">
+            <li>
+              <a
+                href="./profile.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Profile
+              </a>
+            </li>
+            <li>
+              <a
+                href="./gallery.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                href="./gallery.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Career Goals
+              </a>
+            </li>
+            <li>
+              <a
+                href="./project.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="./skills.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Skills & Interest
+              </a>
+            </li>
+            <li>
+              <a
+                href="./contact.html"
+                class="text-[#F5F5F5] hover:underline hover:underline-offset-4 hover:decoration-white transition duration-300"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="container mx-auto flex flex-col items-center text-center">
+      <!-- Profile Picture -->
+      <img
+        src="./assets/images/me.jpeg"
+        alt="Profile Picture"
+        class="w-36 h-36 rounded-full border-4 border-gray-700 shadow-md"
+      />
+
+      <!-- Name and Title -->
+      <h1 class="text-4xl text-[#F5F5F5] font-semibold my-4">Gul Sher Khan</h1>
+      <p class="text-xl text-gray-400 mb-6">Full Stack Developer</p>
+
+      <!-- Bio Section -->
+      <div
+        class="w-full md:w-2/3 text-[#F5F5F5] bg-[#1A1A1A] p-8 rounded-lg shadow-lg"
+      >
+        <h2 class="text-3xl font-semibold text-[#F5F5F5] mb-4">About Me</h2>
+        <p class="leading-relaxed">
+          I am a passionate full-stack developer with a background in software
+          engineering. I specialize in stacks like React, Next.js, Node.js, and
+          Python. I have a pursuing Software Engineering from FAST, where I
+          developed a keen interest in creating user-friendly applications.
+        </p>
+        <p class="mt-4 leading-relaxed">
+          With 2 years of practice, I have worked on various projects ranging
+          from e-commerce platforms to mobile applications. My goal is to create
+          applications that are not only functional but also visually appealing.
+        </p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="flex flex-wrap gap-6 mt-8 items-center justify-center">
+        <a
+          href="#"
+          class="bg-[#0077B5] text-[#F5F5F5] px-5 py-3 rounded-lg hover:bg-[#005E8B] transition-colors duration-300"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="#"
+          class="bg-[#C13584] text-[#F5F5F5] px-5 py-3 rounded-lg hover:bg-[#B9337A] transition-colors duration-300"
+        >
+          Instagram
+        </a>
+        <a
+          href="#"
+          class="bg-[#24292E] text-[#F5F5F5] px-5 py-3 rounded-lg hover:bg-[#1F2428] transition-colors duration-300"
+        >
+          GitHub
+        </a>
+        <a
+          href="#"
+          class="bg-[#1DA1F2] text-[#F5F5F5] px-5 py-3 rounded-lg hover:bg-[#1778C8] transition-colors duration-300"
+        >
+          Twitter
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
